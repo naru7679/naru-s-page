@@ -403,8 +403,10 @@ http://stackoverflow.com/a/34696029/383904
 
 .snip1543 img {
   backface-visibility: hidden;
-  max-width: 100%;
   vertical-align: top;
+  width:200px;
+  height:150px;
+
 }
 
 .snip1543:before,
@@ -546,6 +548,10 @@ footer{
   background-color: rgb(3, 58, 58);
   color: rgb(252, 216, 17);
   text-align: center;
+}
+
+footer a{
+  color: rgb(252, 216, 17);
 }
 ul.footer-menu li {
 display: inline;
